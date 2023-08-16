@@ -1,0 +1,73 @@
+/* Apply border-box sizing to all elements */
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ /* Body styles */
+ body {
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+     background-color: #D4E4F7;
+     color: #333;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     width: 100vw;
+ }
+ 
+ /* Container styles */
+ .container {
+     width: 500px;
+     max-width: 500px;
+     height: 200px;
+     max-height: 200px;
+     margin: 0 auto;
+     padding: 20px;
+     background-color: #f8f8f8;
+     border-radius: 8px;
+     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+ }
+ 
+ /* Heading styles */
+ h1 {
+     font-size: 28px;
+     margin-bottom: 10px;
+     color: #333;
+ }
+ 
+ /* Quote paragraph styles */
+ #quote {
+     font-size: 18px;
+     margin-bottom: 20px;
+     color: #555;
+ }
+ 
+ /* Button styles */
+ button {
+     background-color: #007bff;
+     color: white;
+     border: none;
+     padding: 10px 20px;
+     font-size: 16px;
+     cursor: pointer;
+     border-radius: 4px;
+     transition: background-color 0.3s ease;
+     position: fixed;
+ }
+ 
+ /* Hover effect for the button */
+ button:hover {
+     background-color: #0056b3;
+ }
+
+ footer{
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     width: 100%;
+     text-align: center;
+ }
